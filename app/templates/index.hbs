@@ -2,6 +2,6 @@
 
 <ul>
   {{#each model as |question|}}
-    <li>{{question.content}} asked by {{question.author}}</li>
-    {{/each}}
+    {{question-tile question=question destroyQuestion="destroyQuestion"}}
+  {{/each}}
 </ul>
