@@ -1,5 +1,3 @@
-
-
 # _Question and Answer Message Board_
 
 #### _This app lets users input a question, see questions, and add answers to specific questions, Friday, June 2, 2017_
@@ -8,7 +6,7 @@
 
 ## Description
 
-_The home page displays questions. A user can add new questions, or updated them. They can also click into a specific question, and add an answer. From there they can also delete the answer_
+_The home page displays all the questions. A user can add new questions, or updated one. They can also click into a specific question, and add an answer. From there they can also delete the answer_
 
 ## Setup/Installation Requirements
 
@@ -24,7 +22,6 @@ $ cd ask-me-anything
 $ npm install
 $ bower install
 $ ember s
-$ atom .
 $ open localhost:4200 in your browser
 ```
 
@@ -43,7 +40,6 @@ $ open localhost:4200 in your browser
   * An about page/route
   * A social-media page/route
   * And a contact page/route
-
 
 4. UX/UI
   * Include and modify bootstrap.
@@ -80,9 +76,7 @@ _Please contact James Higgins at James.Milan.Higgins@gmail.com if you have any q
 
 Copyright (c) 2017 **_James Higgins_**
 
-
-
-![Home Page Screenshot](/images/home.png)
-![Question Screenshot](/images/question.png)
-![Answer Screenshot](/images/answer.png)
-![fourth Screenshot](/images/fourth.png)
+![Home Page Screenshot](/images/home-page.png)
+![Question Screenshot](/images/update-question.png)
+![Answer Screenshot](/images/answers.png)
+![New Answer Screenshot](/images/new-answer.png)
