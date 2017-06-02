@@ -1,5 +1,41 @@
-{{!-- The following component displays Ember's default welcome message. --}}
+<div class="jumbotron">
+  <h1>
+    Ask Me Anything
+  </h1>
+</div>
 
-{{!-- Feel free to remove this! --}}
+  <nav class="navbar navbar-default" >
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Camping Blog</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li>{{#link-to 'index'}}
+          Home
+        {{/link-to}}</li>
+        <li>{{#link-to 'about'}}
+          About
+        {{/link-to}}</li>
+        <li>{{#link-to 'contact'}}
+          Contact
+        {{/link-to}}</li>
+        <li>{{#link-to 'media'}}
+          Social Media
+        {{/link-to}}</li>
+      </ul>
+    </div>
+  </nav>
 
-{{outlet}}
+
+<div>
+  {{outlet}}
+</div>
+
+
+
+<footer class="navbar-default">
+  <div class="container-fluid">
+    <h3>Check me out on Github</h3>
+    <a href="https://github.com/jamesmilanhiggins" target="blank"><img class="github" src="https://www.iconfinder.com/data/icons/iconsimple-logotypes/512/github-256.png"/>James'</a>
+  </div>
+</footer>

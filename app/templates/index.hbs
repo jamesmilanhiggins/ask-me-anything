@@ -1,0 +1,7 @@
+<h2>Index Page :)</h2>
+
+<ul>
+  {{#each model as |question|}}
+    <li>{{question.content}} asked by {{question.author}}</li>
+    {{/each}}
+</ul>
