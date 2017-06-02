@@ -1,9 +1,22 @@
-<h2>Index Page :)</h2>
+<h1> Ask Me Anything</h1>
+
+
+<h2>List of All Questions</h2>
 
 <ul>
-  {{#each model as |question|}}
-    {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
+  {{#each model.questions as |question|}}
+    {{question-tile question=question}}
   {{/each}}
 </ul>
 
 {{new-question saveQuestion2="saveQuestion3"}}
+
+<h2> All Answers </h2>
+
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.answerauthor}} </li>
+  {{/each}}
+</ul>
+
+{{new-answer saveAnswer="saveAnswer"}}

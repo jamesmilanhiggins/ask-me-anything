@@ -2,7 +2,6 @@
     "content": "This is the first question",
     "author": "James Higgins",
     "notes": "this question is the first one"
-
   }, {
     "content": "What is the second question?",
     "author": "Mike Teavee",
@@ -11,5 +10,12 @@
     "content": "I think I have a third question",
     "author": "Daniel Brady",
     "notes": "This is the third one"
-  }]
+  }],
+  "answers": [{
+    "answercontent": "yes",
+    "answerauthor": "james"
+ }, {
+    "answercontent": "no",
+    "answerauthor": "not James"
+ }]
 }
