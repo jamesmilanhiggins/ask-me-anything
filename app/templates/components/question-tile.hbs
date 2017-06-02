@@ -1,2 +1,4 @@
 <li>{{question.content}} asked by {{question.author}}</li>
+{{update-question question=question update="update"}}
+
 <button class="btn btn-danger"{{action 'delete' question}}> Delete Question</button>
