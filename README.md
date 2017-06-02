@@ -76,7 +76,7 @@ _Please contact James Higgins at James.Milan.Higgins@gmail.com if you have any q
 
 Copyright (c) 2017 **_James Higgins_**
 
-![Home Page Screenshot](/images/home-page.png)
-![Question Screenshot](/images/update-question.png)
-![Answer Screenshot](/images/answers.png)
-![New Answer Screenshot](/images/new-answer.png)
+![Home Page Screenshot](/public/images/home-page.png)
+![Question Screenshot](/public/images/update-question.png)
+![Answer Screenshot](/public/images/answers.png)
+![New Answer Screenshot](/public/images/new-answer.png)
