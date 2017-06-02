@@ -45,11 +45,6 @@ $ open localhost:4200 in your browser
   * Include and modify bootstrap.
   * Develop custom style
 
-5. Polish
-  * Refactor minor portion of...
-  * Delete unused...
-  * Make README awesome
-
 
 ## Known Bugs
 

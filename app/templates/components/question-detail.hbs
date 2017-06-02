@@ -1,14 +1,11 @@
-
 <h3>"{{question.content}}"  by: {{question.author}} <br></h3>
 <h4>Notes: {{question.notes}}</h4>
  <br>
-
  <h3> Answers to this Question: </h3>
  <ul>
    {{#each question.answers as |answer|}}
      {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
    {{/each}}
  </ul>
-
 
 <button class="btn btn-danger"{{action 'delete' question}}>Delete This Question</button>

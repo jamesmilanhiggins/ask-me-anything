@@ -1,11 +1,6 @@
 <div class="question-tile">
-
-  <!-- <h2>{{model.author}}'s question: "{{model.content}}" notes: {{model.notes}}</h2> -->
-<!-- More information about  -->
 <br>
   {{update-question question=model update="update"}}
-
   {{question-detail question=model destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer"}}
-
   {{new-answer saveAnswer="saveAnswer" question=model}}
 </div>
