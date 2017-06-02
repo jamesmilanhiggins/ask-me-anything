@@ -1,3 +1,5 @@
 <li>
-  {{#link-to 'question' question.id}}{{question.author}}'s {{question.content}}{{/link-to}}
+  <div class="tile">
+  {{#link-to 'question' question.id}} "{{question.content}}"{{/link-to}} - {{question.author}}
+  </div>
 </li>

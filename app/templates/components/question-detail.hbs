@@ -1,9 +1,9 @@
-TEST TEXT for a specific question
 
-{{question.author}} and {{question.content}}
+<h3>"{{question.content}}"  by: {{question.author}} <br></h3>
+<h4>Notes: {{question.notes}}</h4>
  <br>
 
- <h2> Answers to this Question </h2>
+ <h3> Answers to this Question: </h3>
  <ul>
    {{#each question.answers as |answer|}}
      {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
@@ -11,4 +11,4 @@ TEST TEXT for a specific question
  </ul>
 
 
-<button {{action 'delete' question}}>Delete This Question</button>
+<button class="btn btn-danger"{{action 'delete' question}}>Delete This Question</button>

@@ -1,0 +1,70 @@
+
+.jumbotron {
+  background-color: #1D4E89;
+  color: #00B2CA;
+  box-shadow: 10px 10px 50px lightgrey;
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+.question-tile {
+  background-color: #EDE1DA;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+ border-radius: 10px;
+ font-family: 'Asap', sans-serif;
+
+}
+body {
+  text-shadow: 1px grey;
+  text-shadow: 1px 1px 1px lightgrey;
+ text-align: left;
+  background-color: #AFDEDC;
+}
+
+#my-navbar {
+  background-color: #7DCFB6;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Asap', sans-serif;
+
+}
+ul {
+  list-style-type: none;
+}
+
+.header {
+  text-align: center;
+}
+.navbar-default {
+  color: #00B2CA;
+  background-color: #1D4E89;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  text-align: center;
+
+}
+img {
+  height: 75px;
+  width: 75px;
+}
+.answer-tile {
+  color: green;
+  font-size: 20px;
+}
+.content {
+  text-align: center;
+  padding-left: 50px;
+}
+
+.tile {
+  background-color: #FBD1A2;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  text-align: left;
+}
