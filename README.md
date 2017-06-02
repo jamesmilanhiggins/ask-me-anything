@@ -1,50 +1,25 @@
-# ask-me-anything
+## Planning
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+1. Configuration/dependencies
+  * firebase
 
-## Prerequisites
+2. Specs
+  * Spec 1: A user can input a question on the homepage, Ex: What is a good course to take at Epicodus?, "What is a good course to take at Epicodus" is listed on the homepage.
+  * Spec 2: A user can click into a question, and add an answer, Ex: Ruby!, "Ruby!" is listed as an answer to the question.
+  * Spec 3: A user can update/edit questions, What is a good course to take at Epicodus? , What is the best course at Epicodus?.
 
-You will need the following things properly installed on your computer.
+3. Integration
+  * A home page /index route
+  * An about page/route
+  * A social-media page/route
+  * And a contact page/route
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
 
-## Installation
+4. UX/UI
+  * Include and modify bootstrap.
+  * Develop custom style
 
-* `git clone <repository-url>` this repository
-* `cd ask-me-anything`
-* `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+5. Polish
+  * Refactor minor portion of...
+  * Delete unused...
+  * Make README awesome
